@@ -11,9 +11,9 @@ int main() {
         if (a==0){
             printf("Zero\n");
         }
-        else {
-            printf("Negative\n");
-        }
+    else {
+        printf("Negative\n");
+    }
     
     return 0;
 }
