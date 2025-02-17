@@ -1,11 +1,10 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
+    int num;
+    scanf("%d", &num);
     
-    if (a !<0 && b !< 0) {
+    if (!(num > 0)) {
         printf("True\n");
     } else {
         printf("False\n");
