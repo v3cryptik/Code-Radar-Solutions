@@ -8,12 +8,12 @@ int main() {
     if (a >= 0){
         printf("Positive\n");
     }
-    if (a==0){
-        printf("Zero\n");
-    }
-     else {
-        printf("Negative\n");
-    }
+        if (a==0){
+            printf("Zero\n");
+        }
+        else {
+            printf("Negative\n");
+        }
     
     return 0;
 }
