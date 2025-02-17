@@ -5,7 +5,7 @@ int main() {
     int num;
     scanf("%d", &num);
     
-    if (!(num | 1)) { // Checking LSB using bitwise AND
+    if (!(num & 1)) { // Checking LSB using bitwise AND
         printf("Set\n");
     } else {
         printf("Not Set\n");
