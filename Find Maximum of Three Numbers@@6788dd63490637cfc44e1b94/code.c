@@ -6,9 +6,9 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
     
     // Triangle condition: Sum of any two sides must be greater than the third side
-    if (a > b > c) {
+    if (a > b && a > c) {
         printf("%d\n", a);
-    } else if (a < b > c){
+    } else if (a < b && b> c){
         printf("%d\n", b);
     }
     else {
