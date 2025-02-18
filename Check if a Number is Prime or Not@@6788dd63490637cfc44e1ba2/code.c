@@ -8,7 +8,7 @@ int main() {
     // A prime number must be greater than 1
     if (num <= 1) {
         printf("Not Prime\n");
-        return 0;
+        
     }
 
     // Checking divisibility from 2 to sqrt(num) for efficiency
