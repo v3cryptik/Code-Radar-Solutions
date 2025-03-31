@@ -10,7 +10,7 @@ void printInvertedTriangle(int N) {
 
 int main() {
     int N;
-    printf(" ");
+    printf("");
     scanf("%d", &N);
     printInvertedTriangle(N);
     return 0;
