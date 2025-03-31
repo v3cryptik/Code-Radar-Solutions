@@ -9,7 +9,7 @@ void printInvertedTriangle(int N) {
 
 int main() {
     int N;
-    printf("Enter the number of rows: ");
+    printf(" ");
     scanf("%d", &N);
     printInvertedTriangle(N);
     return 0;
