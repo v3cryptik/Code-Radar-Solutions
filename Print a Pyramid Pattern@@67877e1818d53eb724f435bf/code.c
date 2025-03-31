@@ -14,7 +14,7 @@ void printPyramidTriangle(int N) {
 
 int main() {
     int N;
-    printf("Enter the number of rows: ");
+    printf("");
     scanf("%d", &N);
     printPyramidTriangle(N);
     return 0;
