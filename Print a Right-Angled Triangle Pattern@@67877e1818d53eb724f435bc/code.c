@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void printInvertedTriangle(int N) {
-    for (int i = N; i <= N; i++) { // Loop for each row
+void printRightAngledTriangle(int N) {
+    for (int i = 1; i <= N; i++) { // Loop for each row
         for (int j = 1; j <= i; j++) { // Loop to print stars in each row
             printf("*");
         }
@@ -13,6 +13,7 @@ int main() {
     int N;
     printf("");
     scanf("%d", &N);
-    printInvertedTriangle(N);
+    printRightAngledTriangle(N);
     return 0;
 }
+
