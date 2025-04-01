@@ -11,7 +11,7 @@ void printSquarePattern(int N) {
 
 int main() {
     int N;
-    printf("Enter the size of the square: ");
+    printf("");
     scanf("%d", &N);
     printSquarePattern(N);
     return 0;
